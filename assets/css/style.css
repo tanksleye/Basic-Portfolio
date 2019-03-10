@@ -102,25 +102,24 @@ footer {
     text-align: center;
     padding: 40px;
     color: white;
-}
-
-.gallery {
-    position: absolute;
-    top: 10px;
-    right: 0%;
-    color: black;
-    padding: 0 60px;
-
-}
-
-.gallery .image {
-    width: 22%;
-    margin: 2%;
-    float: left;
+    bottom: 0%;
 }
 
 .image {
-    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 40px 10px 30px 10px;
+    float: left;
+}
+
+.image:nth-of-type(even) {
+    float: right;
+}
+
+.image:nth-of-type(odd) {
+    float: left;
 }
 
 form label {
@@ -142,7 +141,7 @@ textarea {
 }
 
 form button {
-    background: #cccccc;
+    background: #4aaaa5;
     padding: 10px 20px;
     margin: 10px 0;
     font-size: 18px;
@@ -178,6 +177,7 @@ form button {
     padding: 0 10px;
     float: left;
     margin-top: 20px;
+    padding: 20px 0 15px 0;
 
 }
 
@@ -187,53 +187,57 @@ form button {
     background-color: #4aaaa5;
     color: white;
     float: left;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 
-#box-1 {
-    width: 200px;
-    height: 30px;
-    margin: 5px 3px 3px 3px;
-    padding: 20px 15px 15px 15px;
-    background-color: #4aaaa5;
-    color: black;
-    text-align: center;
+.image h4{
+background: #4aaaa5;
+color: white;
+text-align: center;
+padding: 15px 0;
+width: 100%;
+position: absolute;
+bottom: -20px;
+margin-left: -10px;
 
 }
-#box-2 {
-    width: 200px;
-    height: 30px;
-    margin: 5px 3px 3px 3px;
-    padding: 20px 15px 15px 15px;
-    background-color: #4aaaa5;
-    color: black;
-    text-align: center;
+
+#buzz {
+    background: url('../images/buzz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 20px 10px 10px;
 }
-#box-3 {
-    width: 200px;
-    height: 30px;
-    margin: 5px 3px 3px 3px;
-    padding: 20px 15px 15px 15px;
-    background-color: #4aaaa5;
-    color: black;
-    text-align: center;
+
+#woody {
+    background: url('../images/woody.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 20px 10px 10px;
 }
-#box-4 {
-    width: 200px;
-    height: 30px;
-    margin: 5px 3px 3px 3px;
-    padding: 20px 15px 15px 15px;
-    background-color: #4aaaa5;
-    color: black;
-    text-align: center;
+
+#jessie {
+    background: url('../images/jessie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 20px 10px 10px;
 }
-#box-5 {
-    width: 200px;
-    height: 30px;
-    margin: 5px 3px 3px 3px;
-    padding: 20px 15px 15px 15px;
-    background-color: #4aaaa5;
-    color: black;
-    text-align: center;
+
+#mrpotato {
+    background: url('../images/mrpotato.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 20px 10px 10px;
+}
+
+#hamm {
+    background: url('../images/hamm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 20px 10px 10px;
 }
